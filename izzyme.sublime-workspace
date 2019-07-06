@@ -1,0 +1,1118 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"co",
+				"Commentator"
+			],
+			[
+				"ag",
+				"aggregator"
+			],
+			[
+				"req",
+				"require_once"
+			],
+			[
+				"ma",
+				"margin-top"
+			],
+			[
+				"sc",
+				"scale"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"pa",
+				"padding"
+			],
+			[
+				"pars",
+				"parseInt"
+			],
+			[
+				"q",
+				"query"
+			],
+			[
+				"array_p",
+				"array_pop"
+			],
+			[
+				"or",
+				"order_data"
+			],
+			[
+				"new",
+				"new_summ"
+			],
+			[
+				"cur",
+				"cursor"
+			],
+			[
+				"fon",
+				"font-weight"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"fade",
+				"fadeIn"
+			],
+			[
+				"border-r",
+				"border-radius"
+			],
+			[
+				"ba",
+				"background-size"
+			],
+			[
+				"pos",
+				"pos-a	position: absolute;"
+			],
+			[
+				"mar",
+				"margin"
+			],
+			[
+				"ec",
+				"echo"
+			],
+			[
+				"loca",
+				"Location"
+			],
+			[
+				"fil",
+				"filters"
+			],
+			[
+				"pad",
+				"padding-top"
+			],
+			[
+				"is",
+				"isset"
+			],
+			[
+				"data",
+				"data-id"
+			],
+			[
+				"cu",
+				"cursor"
+			],
+			[
+				"a",
+				"auto"
+			],
+			[
+				"ad",
+				"addClass"
+			],
+			[
+				"remo",
+				"removeAttr"
+			],
+			[
+				"in",
+				"input"
+			],
+			[
+				"p",
+				"p	Tag"
+			],
+			[
+				"po",
+				"pos-a	position: absolute;"
+			],
+			[
+				"my",
+				"my_form"
+			],
+			[
+				"te",
+				"text-indent"
+			],
+			[
+				"text-",
+				"text-indent"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"brd",
+				"bdrs	border-radius"
+			],
+			[
+				"fo",
+				"font-weight"
+			],
+			[
+				"no",
+				"no-repeat"
+			],
+			[
+				"border-l",
+				"border-left-color"
+			],
+			[
+				"bord",
+				"border"
+			],
+			[
+				"f",
+				"font-size"
+			],
+			[
+				"marg",
+				"margin-right"
+			],
+			[
+				"bor",
+				"border"
+			],
+			[
+				"bob",
+				"border-bottom-color"
+			],
+			[
+				"brl",
+				"border-left"
+			],
+			[
+				"li",
+				"link	Tag"
+			],
+			[
+				"pr",
+				"pos-r	position: relative;"
+			],
+			[
+				"cl",
+				"clear"
+			],
+			[
+				"min",
+				"min-width"
+			],
+			[
+				"hsa",
+				"hasClass"
+			],
+			[
+				"the",
+				"the_field"
+			],
+			[
+				"val",
+				"value"
+			],
+			[
+				"js",
+				"json_encode"
+			],
+			[
+				"lis",
+				"lis-n	list-style: none;"
+			],
+			[
+				"isa",
+				"is_array"
+			],
+			[
+				"win",
+				"winWidth"
+			],
+			[
+				"par",
+				"parents"
+			],
+			[
+				"re",
+				"removeClass"
+			],
+			[
+				"el",
+				"el_product"
+			],
+			[
+				"to",
+				"to_cart"
+			],
+			[
+				"border-col",
+				"border-color"
+			],
+			[
+				"t",
+				"trf	transform"
+			],
+			[
+				"w",
+				"width"
+			],
+			[
+				"di",
+				"d-ib	display: inline-block;"
+			],
+			[
+				"font",
+				"font-family"
+			],
+			[
+				"bo",
+				"border-color"
+			],
+			[
+				"tr",
+				"trs	transition: ${1:prop} ${2:time};"
+			],
+			[
+				"backgr",
+				"background"
+			],
+			[
+				"tra",
+				"text-transform"
+			],
+			[
+				"r",
+				"right"
+			],
+			[
+				"touc",
+				"touch_end"
+			],
+			[
+				"touch_",
+				"touch_start"
+			],
+			[
+				"tou",
+				"touchend"
+			],
+			[
+				"rem",
+				"removeAttr"
+			],
+			[
+				"sli",
+				"slideDown"
+			],
+			[
+				"form_",
+				"form_data"
+			],
+			[
+				"pro",
+				"product_id"
+			],
+			[
+				"tex",
+				"text-align"
+			],
+			[
+				"op",
+				"opacity"
+			],
+			[
+				"border-c",
+				"border-color"
+			],
+			[
+				"c",
+				"color"
+			],
+			[
+				"background-c",
+				"background-color"
+			],
+			[
+				"ap",
+				"append"
+			],
+			[
+				"prev",
+				"preventDefault"
+			],
+			[
+				"es",
+				"ease-out"
+			],
+			[
+				"set",
+				"setTimeout"
+			],
+			[
+				"get",
+				"getItem"
+			],
+			[
+				"nu",
+				"num_rows"
+			],
+			[
+				"m",
+				"my_form"
+			],
+			[
+				"ta",
+				"target	Attr"
+			],
+			[
+				"none",
+				"_none"
+			],
+			[
+				"sl",
+				"slideUp"
+			],
+			[
+				"C",
+				"Circe-Bold"
+			],
+			[
+				"ea",
+				"ease-out"
+			],
+			[
+				"matg",
+				"margin-bottom"
+			],
+			[
+				"em",
+				"empty"
+			],
+			[
+				"ban",
+				"banner"
+			],
+			[
+				"has",
+				"hasClass"
+			],
+			[
+				"scr",
+				"scrollTop"
+			],
+			[
+				"lin",
+				"line-height"
+			],
+			[
+				"remove",
+				"removeClass"
+			],
+			[
+				"pare",
+				"parents"
+			],
+			[
+				"border-b",
+				"border-bottom"
+			],
+			[
+				"inli",
+				"inline-block"
+			],
+			[
+				"arra",
+				"array"
+			],
+			[
+				"arr",
+				"array"
+			],
+			[
+				"con",
+				"console"
+			],
+			[
+				"pre",
+				"pre	Tag"
+			],
+			[
+				"jso",
+				"json_encode"
+			],
+			[
+				"pri",
+				"print_r"
+			],
+			[
+				"back",
+				"background-image"
+			],
+			[
+				"se",
+				"sessionStorage"
+			],
+			[
+				"e",
+				"e_value"
+			],
+			[
+				"l",
+				"left"
+			],
+			[
+				"strip",
+				"strip_tags"
+			],
+			[
+				"res",
+				"resizeToWidth"
+			],
+			[
+				"h",
+				"height"
+			],
+			[
+				"resi",
+				"resizeToHeight"
+			],
+			[
+				"max-",
+				"max-width"
+			],
+			[
+				"app",
+				"appendTo"
+			],
+			[
+				"prep",
+				"prependTo"
+			],
+			[
+				"att",
+				"attachment_id"
+			],
+			[
+				"im",
+				"important"
+			],
+			[
+				"de",
+				"detach"
+			],
+			[
+				"Op",
+				"OpenSans-Regular"
+			],
+			[
+				"cate",
+				"category"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"",
+				"Package Control: Install Package"
+			],
+			[
+				"css",
+				"Set Syntax: CSS"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 400.0
+	},
+	"console":
+	{
+		"height": 197.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '6f4c264a24d933ce70df5dedcf1dcaee' + 'ebe013ee18cced0ef93d5f746d80ef60'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)",
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)",
+			"import urllib2,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); os.makedirs( ipp ) if not os.path.exists(ipp) else None; urllib2.install_opener( urllib2.build_opener( urllib2.ProxyHandler()) ); by = urllib2.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); open( os.path.join( ipp, pf), 'wb' ).write(by) if dh == h else None; print('Error validating download (got %s instead of %s), please try manual install' % (dh, h) if dh != h else 'Please restart Sublime Text to finish installation')",
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/D/!WebServer/OSPanel/domains/izzyme"
+	],
+	"file_history":
+	[
+		"/S/domains/es-vlad/frontend/controllers/SiteController.php",
+		"/S/domains/es-vlad/frontend/assets/AppAsset.php",
+		"/S/domains/izzyme/app/Http/Controllers/Auth/RegisterController.php",
+		"/S/domains/izzyme/routes/web.php",
+		"/S/domains/izzyme/app/Http/Controllers/Auth/LoginController.php",
+		"/S/domains/izzyme/app/Http/Controllers/Controller.php",
+		"/S/domains/izzyme/vendor/laravel/framework/src/Illuminate/Routing/RoutingServiceProvider.php",
+		"/S/domains/izzyme/vendor/laravel/framework/src/Illuminate/Routing/Route.php",
+		"/D/!WebServer/OSPanel/domains/izzyme/routes/api.php",
+		"/D/!WebServer/OSPanel/domains/izzyme/app/Http/Controllers/Controller.php",
+		"/D/!WebServer/OSPanel/domains/izzyme/app/User.php",
+		"/D/!WebServer/OSPanel/domains/izzyme/app/Providers/AppServiceProvider.php",
+		"/D/!WebServer/OSPanel/domains/izzyme/vendor/laravel/framework/src/Illuminate/View/composer.json",
+		"/D/!WebServer/OSPanel/domains/izzyme/vendor/laravel/framework/composer.json",
+		"/D/!WebServer/OSPanel/domains/izzyme/vendor/psr/log/composer.json",
+		"/D/!WebServer/OSPanel/domains/izzyme/package.json",
+		"/D/!WebServer/OSPanel/domains/izzyme/composer.json",
+		"/D/!WebServer/OSPanel/domains/izzyme/server.php",
+		"/D/!WebServer/OSPanel/domains/izzyme/gulpfile.js",
+		"/D/!WebServer/OSPanel/domains/izzyme/bootstrap/cache/services.php",
+		"/D/!WebServer/OSPanel/domains/izzyme/bootstrap/autoload.php",
+		"/D/!WebServer/OSPanel/domains/izzyme/bootstrap/app.php",
+		"/D/!WebServer/OSPanel/domains/izzyme/routes/web.php",
+		"/D/!WebServer/OSPanel/domains/izzyme/routes/console.php",
+		"/D/!WebServer/OSPanel/domains/izzyme/resources/views/welcome.blade.php",
+		"/D/!WebServer/OSPanel/domains/izzyme/resources/assets/sass/_variables.scss",
+		"/D/!WebServer/OSPanel/domains/izzyme/resources/assets/sass/app.scss",
+		"/D/!WebServer/OSPanel/domains/izzyme/resources/assets/js/components/Example.vue",
+		"/D/!WebServer/OSPanel/domains/izzyme/resources/assets/js/bootstrap.js",
+		"/D/!WebServer/OSPanel/domains/izzyme/resources/assets/js/app.js",
+		"/D/!WebServer/OSPanel/domains/izzyme/public/index.php",
+		"/D/!WebServer/OSPanel/domains/izzyme/public/css/app.css",
+		"/D/!WebServer/OSPanel/domains/izzyme/public/js/app.js",
+		"/D/!WebServer/OSPanel/domains/izzyme/database/factories/ModelFactory.php",
+		"/D/!WebServer/OSPanel/domains/izzyme/database/seeds/DatabaseSeeder.php",
+		"/D/!WebServer/OSPanel/domains/izzyme/database/migrations/2014_10_12_000000_create_users_table.php",
+		"/D/!WebServer/OSPanel/domains/izzyme/database/migrations/2014_10_12_100000_create_password_resets_table.php",
+		"/D/!WebServer/OSPanel/domains/izzyme/config/filesystems.php",
+		"/D/!WebServer/OSPanel/domains/izzyme/config/app.php",
+		"/D/!WebServer/OSPanel/domains/izzyme/config/auth.php",
+		"/D/!WebServer/OSPanel/domains/izzyme/config/broadcasting.php",
+		"/D/!WebServer/OSPanel/domains/izzyme/config/cache.php",
+		"/C/Users/esvlad/AppData/Local/Temp/fz3temp-3/App 2.php",
+		"/C/Users/esvlad/AppData/Local/Temp/fz3temp-3/page-saiding.php",
+		"/C/Users/esvlad/AppData/Local/Temp/fz3temp-3/page-production.php",
+		"/C/Users/esvlad/AppData/Local/Temp/fz3temp-3/order.php",
+		"/C/Users/esvlad/AppData/Local/Temp/fz3temp-3/checkout.php",
+		"/C/Users/esvlad/AppData/Local/Temp/fz3temp-3/cart 2.tpl",
+		"/C/Users/esvlad/AppData/Local/Temp/fz3temp-3/cart.php",
+		"/C/Users/esvlad/AppData/Local/Temp/fz3temp-3/config 2.php",
+		"/C/Users/esvlad/AppData/Local/Temp/fz3temp-3/Commentator.php",
+		"/C/Users/esvlad/AppData/Local/Temp/fz3temp-3/CodeGenerator.php",
+		"/C/Users/esvlad/AppData/Local/Temp/fz3temp-3/Aggregator 2.php",
+		"/C/Users/esvlad/AppData/Local/Temp/fz3temp-3/cart.tpl",
+		"/C/Users/esvlad/AppData/Local/Temp/fz3temp-3/header.tpl",
+		"/C/Users/esvlad/AppData/Local/Temp/fz3temp-3/footer 2.tpl",
+		"/C/Users/esvlad/AppData/Local/Temp/fz3temp-3/myscript.min.js",
+		"/D/!WebServer/OSPanel/domains/izzymeapp/vendor/vkcom/vk-php-sdk/src/VK/Actions/Newsfeed.php",
+		"/C/Users/esvlad/AppData/Local/Temp/fz3temp-3/Bot 2.php",
+		"/C/Users/esvlad/Documents/7033580",
+		"/D/!WebServer/OSPanel/domains/izzymeapp/vendor/vkcom/vk-php-sdk/src/VK/Client/VKApiClient.php",
+		"/D/!WebServer/OSPanel/domains/izzymeapp/App/App.php",
+		"/D/!WebServer/OSPanel/domains/izzymeapp/App/Bot.php",
+		"/C/Users/esvlad/AppData/Local/Temp/fz3temp-3/config.php",
+		"/D/!WebServer/OSPanel/domains/izzymeapp/App/config.php",
+		"/D/!WebServer/OSPanel/domains/izzymeapp/App/Model/Aggregator.php",
+		"/D/!WebServer/OSPanel/domains/izzymeapp/composer.json",
+		"/D/!WebServer/OSPanel/domains/izzymeapp/vendor/composer/autoload_psr4.php",
+		"/D/!WebServer/OSPanel/domains/esvlad/composer.json",
+		"/D/!WebServer/OSPanel/domains/dimet/vendor/composer/autoload_psr4.php",
+		"/D/!WebServer/OSPanel/domains/dimet/vendor/composer/autoload_namespaces.php",
+		"/D/!WebServer/OSPanel/domains/dimet/composer.json",
+		"/D/!WebServer/OSPanel/domains/izzymeapp/vendor/composer/autoload_namespaces.php",
+		"/C/Users/esvlad/AppData/Local/Temp/fz3temp-3/aggregator.php",
+		"/C/Users/esvlad/AppData/Local/Temp/fz3temp-3/app.php",
+		"/C/Users/esvlad/AppData/Local/Temp/fz3temp-3/bot.php",
+		"/D/!WebServer/OSPanel/domains/izzymeapp/app/model/aggregator.php",
+		"/C/Users/esvlad/AppData/Local/Temp/fz3temp-3/wp-config.php",
+		"/D/!WebServer/OSPanel/domains/izzymeapp/app/bot.php",
+		"/D/!WebServer/OSPanel/domains/izzymeapp/app/app.php",
+		"/D/!WebServer/OpenServer/domains/esvlad/project/vkapi/vkapi/wallphotopost.php",
+		"/D/!WebServer/OpenServer/domains/esvlad/project/vkapi/vkapi/VkQuery.php",
+		"/D/!WebServer/OSPanel/domains/izzymeapp/vendor/vkcom/vk-php-sdk/composer.json",
+		"/D/!WebServer/OSPanel/domains/izzymeapp/app/model/db.php",
+		"/D/!WebServer/OSPanel/domains/izzymeapp/libs/SafeMySQL.php",
+		"/D/!WebServer/OSPanel/domains/izzymeapp/app/config.php",
+		"/D/!WebServer/OSPanel/domains/dimet/app/Modules/Request/RequestModule.php",
+		"/D/!WebServer/OSPanel/domains/dimet/app/Modules/Main/MainModule.php",
+		"/D/!WebServer/OSPanel/domains/izzymeapp/vendor/composer/ClassLoader.php",
+		"/D/!WebServer/OSPanel/domains/izzymeapp/vendor/vkcom/vk-php-sdk/src/VK/Actions/Account.php",
+		"/D/!WebServer/OSPanel/domains/izzymeapp/vendor/vkcom/vk-php-sdk/src/VK/Client/VKApiRequest.php",
+		"/D/!WebServer/OSPanel/domains/izzymeapp/vendor/autoload.php",
+		"/D/!WebServer/OSPanel/domains/izzymeapp/app/controller/bot.php",
+		"/D/!WebServer/OSPanel/domains/izzymeapp/index.php",
+		"/D/!WebServer/OSPanel/domains/izzymeapp/app/aggregator.php",
+		"/D/!WebServer/OSPanel/domains/profrb/system/plugins/VkQuery.php",
+		"/D/!WebServer/OSPanel/domains/izzyme/bot.php",
+		"/D/!WebServer/OSPanel/domains/izzymeapp/composer.lock",
+		"/D/!WebServer/OSPanel/domains/izzymeapp/vendor/cosenary/instagram/composer.json",
+		"/D/!WebServer/OSPanel/domains/izzymeapp/vendor/facebook/graph-sdk/composer.json",
+		"/D/!WebServer/OSPanel/domains/izzymeapp/libs/CodeGenerator.php",
+		"/D/!WebServer/OSPanel/domains/eda/catalog/controller/product/catalog.php",
+		"/C/Users/esvlad/AppData/Local/Temp/fz3temp-3/catalog.tpl",
+		"/C/Users/esvlad/AppData/Local/Temp/fz3temp-3/myscript.js",
+		"/C/Users/esvlad/AppData/Local/Temp/fz3temp-3/style.css",
+		"/C/Users/esvlad/AppData/Local/Temp/fz3temp-3/footer.tpl",
+		"/C/Users/esvlad/AppData/Local/Temp/fz3temp-3/product.php",
+		"/C/Users/esvlad/AppData/Local/Temp/fz3temp-3/contact.tpl",
+		"/C/Users/esvlad/AppData/Local/Temp/fz3temp-3/product.tpl",
+		"/D/!WebServer/OSPanel/domains/eda/catalog/model/catalog/product.php",
+		"/C/Users/esvlad/AppData/Local/Temp/fz3temp-3/category.php",
+		"/C/Users/esvlad/AppData/Local/Temp/fz3temp-2/style.css",
+		"/C/Users/esvlad/AppData/Local/Temp/fz3temp-2/news.php",
+		"/D/!WebServer/OSPanel/domains/localhost/index.html",
+		"/C/Users/esvlad/AppData/Local/Temp/fz3temp-2/home.tpl",
+		"/C/Users/esvlad/AppData/Local/Temp/fz3temp-2/delivery.tpl",
+		"/C/Users/esvlad/AppData/Local/Temp/fz3temp-2/footer.tpl",
+		"/C/Users/esvlad/AppData/Local/Temp/fz3temp-2/contact.tpl",
+		"/C/Users/esvlad/AppData/Local/Temp/fz3temp-2/catalog.tpl",
+		"/C/Users/esvlad/AppData/Local/Temp/fz3temp-2/header.tpl",
+		"/C/Users/esvlad/AppData/Local/Temp/fz3temp-2/news_list.tpl",
+		"/C/Users/esvlad/AppData/Local/Temp/fz3temp-2/header.php",
+		"/C/Users/esvlad/AppData/Local/Temp/fz3temp-2/myscript.js",
+		"/C/Users/esvlad/AppData/Local/Temp/fz3temp-2/news 2.php",
+		"/C/Users/esvlad/AppData/Local/Temp/fz3temp-2/feedback.php",
+		"/D/!WebServer/OSPanel/domains/wboots/catalog/view/theme/wboots/template/information/feedback.tpl",
+		"/D/!WebServer/OSPanel/domains/wboots/catalog/view/theme/wboots/template/information/news_list.tpl",
+		"/C/Users/esvlad/AppData/Local/Temp/fz3temp-2/contact.php"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 117.0,
+		"where_history":
+		[
+			"D:\\Sites\\Ostrova\\www\\admin",
+			"D:\\Sites\\HurshPromolink\\Www\\sites\\all\\themes",
+			"D:\\Sites\\Ostrova",
+			"D:\\Sites\\Realty-gal",
+			"C:\\Sites\\Intersvarkom\\www\\catalog",
+			"C:\\Sites\\Intersvarkom\\www",
+			"C:\\Sites\\Intersvarkom\\www\\catalog",
+			"C:\\Sites\\Intersvarkom\\www\\admin\\language\\russian",
+			"C:\\Sites\\Intersvarkom\\transfer\\old_intersvarkom",
+			"C:\\Sites\\Intersvarkom\\transfer\\old_intersvarkom\\catalog",
+			"C:\\Sites\\Intersvarkom\\transfer\\old_intersvarkom",
+			"C:\\Sites\\Intersvarkom\\transfer\\old_intersvarkom\\catalog",
+			"C:\\Sites\\Intersvarkom\\transfer\\old_intersvarkom",
+			"C:\\Sites\\Intersvarkom\\www\\catalog\\view\\theme\\default\\template",
+			"C:\\Sites\\Intersvarkom\\www\\catalog\\language\\russian",
+			"C:\\Sites\\HDConsult\\sites\\all\\themes\\hdcons",
+			"C:\\Sites\\Kadet\\www",
+			"C:\\Sites\\Kadet\\www\\sites\\all\\themes\\kadet",
+			"",
+			"C:\\Sites\\HDConsult\\sites\\all\\themes\\hdcons",
+			"C:\\sites\\intersvarkom\\www",
+			"C:\\sites\\intersvarkom\\www\\admin",
+			"C:\\sites\\intersvarkom\\www\\admin\\view\\template",
+			"C:\\sites\\intersvarkom\\www",
+			"C:\\sites\\intersvarkom\\www\\catalog\\language\\russian",
+			"C:\\sites\\intersvarkom\\www",
+			"C:\\sites\\play.lotusgym.ru",
+			"C:\\sites\\promolink\\promolink_2015",
+			"C:\\sites\\бклое облако\\WWW\\sites\\all\\themes\\milk",
+			"C:\\sites\\promolink\\promolink_2015",
+			"C:\\sites\\бклое облако\\WWW\\sites\\all\\themes\\milk",
+			"C:\\sites\\бклое облако\\WWW\\sites\\all\\themes\\milkmobile",
+			"C:\\sites\\бклое облако\\WWW\\sites\\all\\themes\\milk",
+			"C:\\sites\\бклое облако\\WWW\\sites\\all\\themes\\milkmobile",
+			"C:\\sites\\бклое облако\\WWW\\sites\\all\\themes\\milkmobile\\js",
+			"C:\\sites\\бклое облако\\WWW\\sites\\all\\themes\\milkmobile",
+			"C:\\sites\\promolink",
+			"C:\\sites\\бклое облако\\WWW\\sites\\all\\themes\\milk",
+			"C:\\sites\\бклое облако\\WWW",
+			"",
+			"www",
+			"",
+			"www",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"mango",
+			"$(document).ajaxSuccess(function(c,b,a)",
+			"Newsfeed",
+			".header_mobile__phone",
+			"pickup_sale_type",
+			"_error_form_text",
+			".form_item span",
+			".sidebar_common",
+			"cookie",
+			"myModalBox_price",
+			"main_page_view",
+			"touch_result",
+			"location.pathname=='/'",
+			"location.pathname == '/'",
+			".product_item__button",
+			".product_item__hint_description",
+			".product_item__button",
+			"_act'",
+			"_act",
+			"hint_item",
+			"product_item__hint",
+			"product_item__hint_description",
+			".product_item__button",
+			"date_",
+			"myModalBoxBanner",
+			"myModalBox_phone",
+			"myModalBoxBanner",
+			"_podarok_id_new",
+			"cart_purchase",
+			"reset_filter",
+			"owl-carousel",
+			"cart_delete",
+			"_payment_type",
+			"payment_type",
+			"_payment_type",
+			"cart_purchase",
+			"product_item__counter_minus",
+			"set_form",
+			"http://starke.su/wp-content/uploads/2019/03/",
+			"count",
+			"matchHeight",
+			"present",
+			".lable_menu img",
+			".events.today",
+			"phone",
+			"shterke.es-vlad.ru",
+			"payment_method",
+			"_payment_type",
+			"carousel-inner",
+			".form_item.common .form_item__toggler ",
+			"._error_form_text:before",
+			".form_item.common .form_item__toggler div",
+			"._error_form_text:before",
+			"form_item",
+			"datepicker",
+			"paymentType",
+			"payment_type",
+			"feedback",
+			".feedback_item p",
+			"thumbnail",
+			"quickModal",
+			"quickview",
+			"quickview_popup",
+			"pswp",
+			"thumbnail",
+			"getProduct(",
+			"#block",
+			"item_image__link",
+			"get_price",
+			"return_btn",
+			"#connect",
+			"form",
+			"box-form",
+			"header_form",
+			"connect",
+			"btn_order",
+			"btn_price",
+			"btn_phone",
+			"view_p_phone",
+			"form",
+			"_metrika",
+			"reachGoal",
+			"ym(",
+			".menu > li:first-child",
+			".steps p",
+			".saiding_shades h2",
+			".main_option_item:nth-child(2) img",
+			".footer_phone_time",
+			".content h2 + p",
+			"modal_goods",
+			"popup-youtube",
+			".slick-prev",
+			"popup-youtube",
+			"КРЕДИТЫ",
+			"ВЫДАЕМ ТОВАРНЫЕ КРЕДИТЫ",
+			".img_review",
+			"about_r",
+			"catalog_2",
+			"инструкцию",
+			"Смотреть инструкцию",
+			".left_vsp",
+			".modal('show');",
+			".view_p_phone",
+			".std-widget-icon:hover",
+			".left_vsp",
+			"@",
+			"btn_review",
+			"btn_price",
+			"btn_order",
+			"connect",
+			"step_box",
+			".footer_message._hidden",
+			"@",
+			"mini_form_email",
+			"._is_politics",
+			".comments_block .comments_form .btn_submit",
+			"change",
+			".pf_checkbox_label:after",
+			".comments_block .comments_form .comments_form__textarea",
+			".modal_question .mq_form_group_private .mq_form__label",
+			"'input'",
+			"mq_form_row_textarea",
+			".search_page .search_view_min10 .search_block",
+			".modal_question .mq_form_select_label",
+			".modal_question .mq_form_select_group",
+			"ajaxurl",
+			"data_form",
+			"saiding_block"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"/local/templates/vkf/images/starke/",
+			"starke.su",
+			".production_service .content ul",
+			"http://shterke.es-vlad.ru",
+			"$",
+			"//dboots.es-vlad.ru",
+			"img",
+			"http://pols",
+			"https://licoufa.ru/",
+			"http://ao-mmz.ru",
+			"http://pols.promolink.su",
+			"http://mmzavod.es-vlad.ru",
+			"http://azklinika.es-vlad.ru",
+			"http://advokatk1.es-vlad.ru",
+			"img",
+			"..",
+			"servis_comform_",
+			"Форма",
+			"..",
+			".view_contact_form",
+			"/sites/all/themes/photosok/",
+			"<div class=\"view_album_block\">",
+			"view_video_album",
+			"",
+			"\n<tr>",
+			"",
+			"</td>",
+			"\n<tr>",
+			"</tr>\n",
+			"'uri' => 'public://",
+			"'uri' => 'public://blog/",
+			"'uri' => 'publicc://field/image/",
+			"'uri' => 'public://",
+			"'uri' => 'public://exp",
+			"'uri' => 'publicc://field",
+			"",
+			"',\n",
+			".html' => '",
+			".page-specialist ",
+			"",
+			"bluestyle",
+			"",
+			"1",
+			"0.5",
+			"animates",
+			"",
+			"\"body\"",
+			"\".offcan\"",
+			"    ",
+			"mid",
+			"/",
+			"/home/intersv4/public_html/",
+			"\n",
+			"",
+			" ",
+			" @id",
+			" @",
+			"",
+			"http://",
+			"",
+			" — http://",
+			"— http://",
+			"82, 46, 145",
+			", ",
+			"",
+			"max-width: 767px",
+			"          '",
+			"videos/sotrudis",
+			"data-validation-error-msg=\" \"",
+			"",
+			"Пожалуйста, в номере вводите только цифры",
+			"Пожалуйста, введите ваше имя",
+			".jpg',\n	        'description'",
+			"col-lg",
+			"26",
+			"	    	'foryears' => '7-11',\n	    	'forgender' => 'he',\n        	'picture' =>",
+			"",
+			"'description' => 'Локинг — прародитель многих фанковых стилей танца. Сам же locking сохранил свои основы и базовые движения и элементы, которые должен знать каждый локер: замок (lock), точка (point), движения с хлопками (slaps, claps), шпагат (split). И, конечно, особое внимание уделяется индивидуальной импровизационной манере каждого танцора, что в локинге называется « кэмпбеллокингом».'",
+			"'Осенью 2012 года в эфире украинского телеканала «Новый канал» стартовало новое шоу формата Endemol\n	        	«ШоумаSтгоуон», где восемь артистов перевоплощались в идолов сцены всех времен и народов — от Леди Гаги и Фредди\n	       		Меркьюри до Валерия Леонтьева и Софии Ротару. Режиссерами телешоу стали Мигель и Олег Бондарчук.\n				Летом 2014 года Мигель стал сопродюсером, хореографом, «наставником» и членом жюри нового грандиозного шоу\n				«Танцы» на российском телеканале ТНТ. В предварительных отборочных турах приняли участие более 10 000 человек\n				со всей страны и зарубежья. Шоу начали 282 танцора из 77 городов. Вторым «наставником» шоу выступил Егор\n				Дружинин. Когда участников в шоу останется 24 — Мигель и Егор создадут две команды по 12 человек и дадут\n				десять отчетных концертов. До финала шоу, которое состоится под Новый год, дойдут четыре лучших танцовщика,\n				а победит лишь один. Он и получит звание лучшего танцора России и главный приз шоу «Танцы» — 3 млн руб.'",
+			"array( \n	    	'id' => ,",
+			"'",
+			"\",\n        	\"description\" => \"Танец танец танец танец танец  танец танец танец танец танец танец танец танец танец танец\"\n        ),",
+			"\",",
+			"",
+			"\"picture\" => ",
+			"\" => array(",
+			" \"",
+			"",
+			"h4",
+			"col-xs-12 col-sm-6 col-md-3",
+			"white",
+			"themes/milkmobile/",
+			"themes/milkmobile/img",
+			"milkmobile_",
+			"src=\"/sites/all/themes/milk/img/",
+			"url(/sites/all/themes/milk/img/",
+			"scrollDown",
+			"scrollUp",
+			"item-fix slide",
+			"900);",
+			"0.9s",
+			"-=70",
+			"+=70",
+			"40",
+			"class=\"rfield\"",
+			"required",
+			"jQuery",
+			"promolinkm",
+			"jQuery",
+			"milk",
+			"name",
+			"font-family: 'PT Sans Narrow', sans-serif;",
+			"#000",
+			"",
+			"font-family: 'PT Sans Narrow', sans-serif;",
+			"#d31a1a",
+			"<span class=\"plus\">+</span>",
+			"src=\"/img/d-us",
+			"'",
+			"от 1 300 000 руб.",
+			"от 600 000 руб.",
+			"от 500 000 руб.",
+			"от 100 000 руб.",
+			"от 1 000 000 руб.",
+			"от 650 000 руб.",
+			"font-family: 'PT Sans', sans-serif;",
+			""
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 26.0
+	},
+	"input":
+	{
+		"height": 35.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "izzyme.sublime-project",
+	"replace":
+	{
+		"height": 62.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"",
+				"css\\style.css"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 238.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
