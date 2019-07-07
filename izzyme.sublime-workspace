@@ -519,6 +519,14 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "/C/Users/esvlad/AppData/Local/Temp/fz3temp-2/App.php",
+			"settings":
+			{
+				"buffer_size": 1336,
+				"line_ending": "Windows"
+			}
+		}
 	],
 	"build_system": "",
 	"command_palette":
@@ -563,10 +571,10 @@
 	},
 	"expanded_folders":
 	[
-		"/D/!WebServer/OSPanel/domains/izzyme"
 	],
 	"file_history":
 	[
+		"/C/Users/esvlad/AppData/Local/Temp/fz3temp-2/App.php",
 		"/S/domains/es-vlad/frontend/controllers/SiteController.php",
 		"/S/domains/es-vlad/frontend/assets/AppAsset.php",
 		"/S/domains/izzyme/app/Http/Controllers/Auth/RegisterController.php",
@@ -693,8 +701,7 @@
 		"/C/Users/esvlad/AppData/Local/Temp/fz3temp-2/news 2.php",
 		"/C/Users/esvlad/AppData/Local/Temp/fz3temp-2/feedback.php",
 		"/D/!WebServer/OSPanel/domains/wboots/catalog/view/theme/wboots/template/information/feedback.tpl",
-		"/D/!WebServer/OSPanel/domains/wboots/catalog/view/theme/wboots/template/information/news_list.tpl",
-		"/C/Users/esvlad/AppData/Local/Temp/fz3temp-2/contact.php"
+		"/D/!WebServer/OSPanel/domains/wboots/catalog/view/theme/wboots/template/information/news_list.tpl"
 	],
 	"find":
 	{
@@ -1028,8 +1035,38 @@
 	"groups":
 	[
 		{
+			"selected": 0,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "/C/Users/esvlad/AppData/Local/Temp/fz3temp-2/App.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1336,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
 			]
 		}
 	],
