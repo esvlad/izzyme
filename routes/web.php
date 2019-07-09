@@ -19,6 +19,27 @@ Route::group(['prefix'=>'admin', 'namespace'=>'Admin', 'middleware'=>['auth']], 
   });
 });
 
+Route::group(['prefix'=>'partners', 'namespace'=>'Partners', 'middleware'=>['auth']], function(){
+  Route::get('/', 'DashboardController@index')->name('partners');
+
+  Route::get('/profile', 'ProfileController@index');
+  Route::put('/profile', 'ProfileController@update');
+
+  Route::resource('/point', 'PointController', ['as' => 'partners']);
+
+  Route::group(['prefix'=>'posts'], function(){
+    Route::get('/', 'PostsController@index');
+
+    Route::get('/date/{date}', 'PostsController@view_date');
+
+    Route::get('/view/{id}', 'PostsController@show')->where(['id'=>'[0-9]+']);
+  });
+
+  Route::group(['prefix'=>'statistics', 'namespace'=>'Statistics'], function(){
+    Route::get('/', 'StatisticsController@view');
+  });
+});
+
 Route::get('/', function () {
     return view('welcome');
 });
