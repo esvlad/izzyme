@@ -1,0 +1,99 @@
+body{
+  font-family: PT Sans;
+  font-size: 16px;
+}
+
+.container .panel:last-child{
+  margin-bottom: 100px;
+}
+
+.panel .panel-heading > h3{
+  font-size: 20px;
+  margin: 10px 0;
+}
+
+.breadcrumb {
+    background-color: #fff;
+    border: 1px solid #d3e0e9;
+    border-radius: 4px;
+    box-shadow: 0 1px 1px rgba(0,0,0,.05);
+}
+
+.posts .table thead tr th:nth-child(2),
+.posts .table thead tr th:nth-child(5){
+  width: 14%;
+}
+
+.posts .table thead tr th:nth-child(1),
+.posts .table tbody tr td:nth-child(1),
+.posts .table thead tr th:nth-child(4),
+.posts .table tbody tr td:nth-child(4),
+.post .table thead tr th:not(:nth-child(2)),
+.post .table tbody tr td:not(:nth-child(2)),
+.statistics .table thead tr th:not(:nth-child(1)),
+.statistics .table tbody tr td:not(:nth-child(1)){
+  text-align: center;
+}
+
+.icons_social{
+  position: relative;
+}
+
+.icons_social[data-socials-code]:before{
+  content: '';
+  background-size: 100% 100%;
+  position: absolute;
+  top: 2px;
+  left: -22px;
+  width: 16px;
+  height: 16px;
+}
+
+.icons_social[data-socials-code="vk"]:before{
+  background-image: url('/img/icons/vk.png');
+}
+.icons_social[data-socials-code="fb"]:before{
+  background-image: url('/img/icons/fb.png');
+}
+.icons_social[data-socials-code="in"]:before{
+  background-image: url('/img/icons/in.png');
+}
+
+#postsweekview,
+#poststatistics,
+#statisticssocialsline,
+#statisticsAge,
+#postsweekmain{
+  height: 300px;
+}
+
+.graphicks .btn{
+  font-size: 15px;
+}
+
+.clients_info,
+.statistics_clients_other{
+  margin-bottom: 100px;
+}
+
+.clients_info .row,
+.statistics_clients_row{
+  margin-bottom: 5px;
+}
+
+.statistics_clients_other > .panel-body > .row{
+  margin-bottom: 50px;
+}
+
+.company .btn,
+.points .btn{
+  font-size: 16px;
+}
+
+.company_view{
+  padding-bottom: 40px;
+}
+
+.company_view .panel-body .row .row{
+  margin-bottom: 7px;
+}

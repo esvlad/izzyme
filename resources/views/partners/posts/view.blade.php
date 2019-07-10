@@ -4,26 +4,19 @@
   <div class="container posts">
     <div class="row">
       <div class="col-sm-12">
-        <ol class="breadcrumb">
-          <li><a href="{{ url('/partners') }}">Главная</a></li>
-          <li class="active">Посты</li>
-        </ol>
+        <div class="panel panel-default">
+          <ol class="breadcrumb">
+            <li><a href="{{ url('/partners') }}">Главная</a></li>
+            <li><a href="{{ url('/partners') }}">Библиотека</a></li>
+            <li class="active">Данные</li>
+          </ol>
+        </div>
         <div class="panel panel-default">
           <div class="panel-heading"><h3>Статистика просмотров</h3></div>
           <div class="panel-body">
-            <div class="row graphicks">
-              <div class="col-sm-12">
-                <p>Статистика по:</p>
-                <div>
-                  <button type="button" class="btn btn-primary btn-xs active" data-type="days">дням</button>
-                  <button type="button" class="btn btn-primary btn-xs" data-type="weeks">неделям</button>
-                  <button type="button" class="btn btn-primary btn-xs" data-type="months">месяцам</button>
-                </div>
-              </div>
-            </div>
             <div class="row">
               <div class="col-sm-12">
-                <canvas id="postsweekview"></canvas>
+                <canvas id="postsweekmain"></canvas>
               </div>
             </div>
           </div>
@@ -98,4 +91,7 @@
       </div>
     </div>
   </div>
+  <script>
+    var config_char = <?=$config_char;?>;
+  </script>
 @endsection

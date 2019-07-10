@@ -1,5 +1,5 @@
 @extends('partners.layouts.app_partners')
 
 @section('content')
-  Dashboard
+  <div class="container">Dashboard</div>
 @endsection

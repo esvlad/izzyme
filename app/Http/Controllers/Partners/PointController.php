@@ -2,7 +2,7 @@
 
 namespace App\Http\Controllers\Partners;
 
-use App\Point;
+//use App\Point;
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
 
@@ -47,7 +47,7 @@ class PointController extends Controller
      * @param  \App\Point  $point
      * @return \Illuminate\Http\Response
      */
-    public function show(Point $point)
+    public function show()//Point $point
     {
         return view('partners.point.show');
     }
@@ -58,7 +58,7 @@ class PointController extends Controller
      * @param  \App\Point  $point
      * @return \Illuminate\Http\Response
      */
-    public function edit(Point $point)
+    public function edit()//Point $point
     {
         return view('partners.point.edit');
     }
@@ -70,9 +70,9 @@ class PointController extends Controller
      * @param  \App\Point  $point
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, Point $point)
+    public function update()//Request $request, Point $point
     {
-        //
+        return view('partners.point.index');
     }
 
     /**
