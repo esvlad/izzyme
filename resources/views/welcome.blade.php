@@ -51,8 +51,8 @@
 
             .links > a {
                 color: #636b6f;
-                padding: 0 25px;
-                font-size: 12px;
+                padding: 0 50px;
+                font-size: 16px;
                 font-weight: 600;
                 letter-spacing: .1rem;
                 text-decoration: none;
@@ -62,6 +62,11 @@
             .m-b-md {
                 margin-bottom: 30px;
             }
+
+            .izzy_img{
+              width: 300px;
+              max-width: 100%;
+            }
         </style>
     </head>
     <body>
@@ -69,17 +74,17 @@
             @if (Route::has('login'))
                 <div class="top-right links">
                     @if (Auth::check())
-                        <a href="{{ url('/home') }}">Home</a>
+                        <a href="{{ url('/partners') }}">В кабинет</a>
                     @else
-                        <a href="{{ url('/login') }}">Login</a>
-                        <a href="{{ url('/register') }}">Register</a>
+                        <a href="{{ url('/login') }}">Авторизоваться</a>
                     @endif
                 </div>
             @endif
 
             <div class="content">
+                <img class="izzy_img" src="/img/izzyme.jpg" />
                 <div class="title m-b-md">
-                    Laravel
+                    IZZYME
                 </div>
             </div>
         </div>
