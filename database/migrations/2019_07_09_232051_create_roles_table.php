@@ -4,7 +4,7 @@ use Illuminate\Support\Facades\Schema;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
 
-class CreatePointsTable extends Migration
+class CreateRolesTable extends Migration
 {
     /**
      * Run the migrations.
@@ -13,14 +13,10 @@ class CreatePointsTable extends Migration
      */
     public function up()
     {
-        Schema::create('points', function (Blueprint $table) {
+        Schema::create('roles', function (Blueprint $table) {
             $table->increments('id');
-            $table->string('address');
-            $table->string('time_work', 100);
-            $table->string('phone', 50);
-            $table->string('email', 20);
-            $table->string('geo');
-            $table->timestamps();
+            $table->string('name', 50)->unique();
+            $table->string('slug', 50)->unique();
             $table->tinyInteger('status');
         });
     }
@@ -32,6 +28,6 @@ class CreatePointsTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('points');
+        Schema::dropIfExists('roles');
     }
 }

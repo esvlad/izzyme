@@ -20,7 +20,8 @@ Route::group(['prefix'=>'admin', 'namespace'=>'Admin', 'middleware'=>['auth']], 
 });
 
 Route::group(['prefix'=>'partners', 'namespace'=>'Partners', 'middleware'=>['auth']], function(){
-  Route::get('/', 'DashboardController@index')->name('partners');
+  //Route::get('/', 'DashboardController@index')->name('partners');
+  Route::get('/', 'PostsController@index')->name('partners');
 
   Route::resource('/point', 'PointController', ['as' => 'partners']);
 
