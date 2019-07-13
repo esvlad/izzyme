@@ -36,15 +36,15 @@ Route::group(['prefix'=>'partners', 'namespace'=>'Partners', 'middleware'=>['aut
 
 Route::group(['namespace'=>'Admin', 'middleware'=>['auth']], function(){
   Route::resource('/admin/company', 'CompanyController', ['as' => 'admin']);
-  Route::get('/admin/statistics', 'StatisticsController@view')->name('admin');
-  Route::get('/partners/statistics/graphics', 'StatisticsController@graphics')->name('admin');
+  Route::get('/admin/statistics', 'StatisticsController@view')->name('admin.statistics');
+  Route::get('/partners/statistics/graphics', 'StatisticsController@graphics')->name('admin.statistics.graphics');
 
-  Route::get('/partners/company', 'CompanyController@show')->name('partners');
-  Route::get('/partners/company/edit', 'CompanyController@edit')->name('partners');
-  Route::put('/partners/company/edit', 'CompanyController@update')->name('partners');
+  Route::get('/partners/company', 'CompanyController@show')->name('partners.company');
+  Route::get('/partners/company/edit', 'CompanyController@edit')->name('partners.company.edit');
+  Route::put('/partners/company/edit', 'CompanyController@update');
 
-  Route::get('/partners/statistics', 'StatisticsController@view')->name('partners');
-  Route::get('/partners/statistics/graphics', 'StatisticsController@graphics')->name('partners');
+  Route::get('/partners/statistics', 'StatisticsController@view')->name('partners.statistics');
+  Route::get('/partners/statistics/graphics', 'StatisticsController@graphics')->name('partners.statistics.graphics');
 });
 
 Route::get('/', function () {
