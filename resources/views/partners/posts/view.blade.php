@@ -4,13 +4,9 @@
   <div class="container posts">
     <div class="row">
       <div class="col-sm-12">
-        <div class="panel panel-default">
-          <ol class="breadcrumb">
-            <li><a href="{{ url('/partners') }}">Главная</a></li>
-            <li><a href="{{ url('/partners') }}">Библиотека</a></li>
-            <li class="active">Данные</li>
-          </ol>
-        </div>
+        <ol class="breadcrumb">
+          <li>Главная</li>
+        </ol>
         <div class="panel panel-default">
           <div class="panel-heading"><h3>Статистика просмотров</h3></div>
           <div class="panel-body">
