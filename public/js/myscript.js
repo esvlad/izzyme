@@ -8,41 +8,46 @@ function graphics_ajax(data_type, token, ctx){
 
   $.ajax({
      type:'get',
-     url:'/partners/posts/graphics',
-     data:'type='+data_type+'&_token = '+token,
+     url:'/partners/statistics/posts',
+     data:{
+       'type': data_type,
+       '_token': token
+     },
      success:function(data){
        $('.graphicks .btn').removeClass('active');
        btn_type.addClass('active');
 
        console.log(data.config_char);
-
        window.myLine = new Chart(ctx, data.config_char);
-     }
+     },
+     error: function(xhr, ajaxOptions, thrownError){
+			console.log(thrownError + "\r\n" + xhr.statusText + "\r\n" + xhr.responseText);
+		 }
   });
 };
 
-if(location.pathname == '/partners'){
+if(graphics_path == 'main'){
   window.onload = function() {
-  	var ctx = document.getElementById('postsweekmain').getContext('2d');
+  	var ctx = document.getElementById('poststatistics').getContext('2d');
     window.myLine = new Chart(ctx, config_char);
   };
 }
 
-if(location.pathname == '/partners/posts'){
-  partners_page = 'posts';
-  var ctx = document.getElementById('postsweekview').getContext('2d');
+if(graphics_path == 'posts'){
+  partners_page = graphics_path;
+  var ctx = document.getElementById('poststatistics').getContext('2d');
 
   window.onload = function() {
   	graphics_ajax('days', window.Laravel.csrfToken, ctx);
   };
 };
 
-if(location.pathname == '/partners/posts/view/1'){
+if(graphics_path == 'post'){
   window.onload = function() {
   	var ctx = document.getElementById('poststatistics').getContext('2d');
     window.myLine = new Chart(ctx, config_char);
   };
-};
+}
 
 function graphics_statistics_ajax(data_type, token, ctx){
   btn_type = $('.graphicks .btn[data-type="'+data_type+'"]');
@@ -57,13 +62,17 @@ function graphics_statistics_ajax(data_type, token, ctx){
        $('.graphicks .btn').removeClass('active');
        btn_type.addClass('active');
 
+       console.log(data.config_char);
        window.myLine = new Chart(ctx, data.config_char);
-     }
+     },
+     error: function(xhr, ajaxOptions, thrownError){
+			console.log(thrownError + "\r\n" + xhr.statusText + "\r\n" + xhr.responseText);
+		 }
   });
 };
 
-if(location.pathname == '/partners/statistics'){
-  partners_page = 'statistics';
+if(graphics_path == 'statistics'){
+  partners_page = graphics_path;
 
   var ctx = document.getElementById('statisticssocialsline').getContext('2d');
 
@@ -116,3 +125,7 @@ $('.graphicks .btn').click(function(e){
     graphics_statistics_ajax(data_type, window.Laravel.csrfToken, ctx)
   }
 });
+
+////////////////////////
+/////// GEO DATA ///////
+////////////////////////

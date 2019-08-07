@@ -4,6 +4,7 @@ namespace App\Http\Middleware;
 
 use Closure;
 use Illuminate\Support\Facades\Auth;
+use App\Role;
 
 class RedirectIfAuthenticated
 {
@@ -18,7 +19,9 @@ class RedirectIfAuthenticated
     public function handle($request, Closure $next, $guard = null)
     {
         if (Auth::guard($guard)->check()) {
-            return redirect('/partners');
+            if(Role::user_role(Auth::id()) != 'partner'){
+              return redirect('/admin');
+            } else return redirect('/partners');
         }
 
         return $next($request);

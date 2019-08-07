@@ -14,24 +14,21 @@
 Route::group(['prefix'=>'admin', 'namespace'=>'Admin', 'middleware'=>['auth']], function(){
   Route::get('/', 'DashboardController@dashboard')->name('admin.index');
 
-  Route::group(['prefix' => 'user_managment', 'namespace' => 'UserManagment'], function(){
-    Route::resource('/user', 'UserController', ['as' => 'admin.user_managment']);
-  });
+  Route::resource('/user', 'UserManagment\UserController', ['as' => 'admin.user_managment']);
+
+  Route::resource('/points', 'PointsController', ['as' => 'admin']);
+  Route::get('/posts', 'PostsController@index')->name('admin.posts.index');
+  Route::get('/posts/{post}', 'PostsController@show')->name('admin.posts.show');
 });
 
 Route::group(['prefix'=>'partners', 'namespace'=>'Partners', 'middleware'=>['auth']], function(){
-  //Route::get('/', 'DashboardController@index')->name('partners');
   Route::get('/', 'PostsController@main')->name('partners');
 
-  Route::resource('/points', 'PointController', ['as' => 'partners']);
+  Route::resource('/points', 'PointsController', ['as' => 'partners']);
 
-  Route::group(['prefix'=>'posts', 'as'=>'partners'], function(){
-    Route::get('/', 'PostsController@index');
-    Route::get('/date/{date}', 'PostsController@view_date');
-    Route::get('/view/1', 'PostsController@show');//show->where(['id'=>'[0-9]+'])
-
-    Route::get('/graphics', 'PostsController@graphics');
-  });
+  Route::get('/posts', 'PostsController@index')->name('partners.posts.index');
+  Route::get('/posts/{post}', 'PostsController@show')->name('partners.posts.show');
+  Route::get('/posts/graphics', 'PostsController@graphics')->name('partners.posts.graphics');
 });
 
 Route::group(['namespace'=>'Admin', 'middleware'=>['auth']], function(){
@@ -39,13 +36,16 @@ Route::group(['namespace'=>'Admin', 'middleware'=>['auth']], function(){
   Route::get('/admin/statistics', 'StatisticsController@view')->name('admin.statistics');
   Route::get('/partners/statistics/graphics', 'StatisticsController@graphics')->name('admin.statistics.graphics');
 
-  Route::get('/partners/company', 'CompanyController@show')->name('partners.company');
-  Route::get('/partners/company/edit', 'CompanyController@edit')->name('partners.company.edit');
-  Route::put('/partners/company/edit', 'CompanyController@update');
+  Route::get('/partners/company', 'CompanyController@show')->name('partners.company.show');
+  Route::get('/partners/company/{company}/edit', 'CompanyController@edit')->name('partners.company.edit');
+  Route::put('/partners/company/{company}', 'CompanyController@update')->name('partners.company.update');
 
   Route::get('/partners/statistics', 'StatisticsController@view')->name('partners.statistics');
   Route::get('/partners/statistics/graphics', 'StatisticsController@graphics')->name('partners.statistics.graphics');
+  Route::get('/partners/statistics/posts', 'StatisticsController@posts')->name('partners.statistics.posts');
 });
+
+Route::get('/auth', 'HomeController@auth')->name('auth');
 
 Route::get('/', function () {
     return view('welcome');

@@ -37,23 +37,23 @@
               <div class="col-sm-6 col-xs-12">
                 <div class="row statistics_clients_row">
                   <div class="col-sm-5">Дата добавления компании:</div>
-                  <div class="col-sm-4"><b>02/05/2019</b></div>
+                  <div class="col-sm-4"><b>{{$clients->company_add}}</b></div>
                 </div>
                 <div class="row statistics_clients_row">
                   <div class="col-sm-5">Всего клиентов:</div>
-                  <div class="col-sm-4"><b>217</b></div>
+                  <div class="col-sm-4"><b>{{$clients->profiles}}</b></div>
                 </div>
                 <div class="row statistics_clients_row">
                   <div class="col-sm-5">Всего публикаций:</div>
-                  <div class="col-sm-4"><b>250</b></div>
+                  <div class="col-sm-4"><b>{{$clients->posts->count}}</b></div>
                 </div>
                 <div class="row statistics_clients_row">
                   <div class="col-sm-5">Всего просмотров:</div>
-                  <div class="col-sm-4"><b>10661</b></div>
+                  <div class="col-sm-4"><b>{{$clients->posts->views}}</b></div>
                 </div>
                 <div class="row statistics_clients_row">
                   <div class="col-sm-5">Общий охват:</div>
-                  <div class="col-sm-4"><b>18870</b></div>
+                  <div class="col-sm-4"><b>{{$clients->posts->coverages}}</b></div>
                 </div>
               </div>
               <div class="col-sm-6 col-xs-12">
@@ -70,31 +70,31 @@
                   <tbody>
                     <tr>
                       <td><b>Просмотры</b></td>
-                      <td>1974</td>
-                      <td>1259</td>
-                      <td>7408</td>
-                      <td>10661</td>
+                      <td>{{$statistics_all->view->vk or "-"}}</td>
+                      <td>{{$statistics_all->view->fb or "-"}}</td>
+                      <td>{{$statistics_all->view->in or "-"}}</td>
+                      <td>{{$statistics_all->view->all or "-"}}</td>
                     </tr>
                     <tr>
                       <td><b>Охват</b></td>
-                      <td>5865</td>
-                      <td>3384</td>
-                      <td>9621</td>
-                      <td>18870</td>
+                      <td>{{$statistics_all->coverage->vk or "-"}}</td>
+                      <td>{{$statistics_all->coverage->fb or "-"}}</td>
+                      <td>{{$statistics_all->coverage->in or "-"}}</td>
+                      <td>{{$statistics_all->coverage->all or "-"}}</td>
                     </tr>
                     <tr>
                       <td><b>Публикации</b></td>
-                      <td>69</td>
-                      <td>37</td>
-                      <td>144</td>
-                      <td>250</td>
+                      <td>{{$statistics_all->publication->vk or "-"}}</td>
+                      <td>{{$statistics_all->publication->fb or "-"}}</td>
+                      <td>{{$statistics_all->publication->in or "-"}}</td>
+                      <td>{{$statistics_all->publication->all or "-"}}</td>
                     </tr>
                     <tr>
                       <td><b>Клиентов</b></td>
-                      <td>65</td>
-                      <td>37</td>
-                      <td>115</td>
-                      <td>217</td>
+                      <td>{{$statistics_all->clients->vk or "-"}}</td>
+                      <td>{{$statistics_all->clients->fb or "-"}}</td>
+                      <td>{{$statistics_all->clients->in or "-"}}</td>
+                      <td>{{$statistics_all->clients->all or "-"}}</td>
                     </tr>
                   </tbody>
                 </table>
@@ -133,6 +133,7 @@
     </div>
   </div>
   <script>
+    var graphics_path = 'statistics';
     var config_char_age = <?=$config_char_age;?>;
     var config_char_sex = <?=$config_char_sex;?>;
     var config_char_city = <?=$config_char_city;?>;

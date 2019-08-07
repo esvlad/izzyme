@@ -11,7 +11,10 @@
     <title>{{ config('app.name', 'Laravel') }}</title>
 
     <!-- Styles -->
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,400i,700,700i&display=swap&subset=cyrillic" rel="stylesheet">
+    <link href="/css/chartjs/Chart.min.css" rel="stylesheet">
     <link href="/css/app.css" rel="stylesheet">
+    <link href="/css/style.css" rel="stylesheet">
 
     <!-- Scripts -->
     <script>
@@ -19,6 +22,7 @@
             'csrfToken' => csrf_token(),
         ]); ?>
     </script>
+    <script src="/js/ckeditor5/ckeditor.js"></script>
 </head>
 <body>
     <div id="app">
@@ -35,8 +39,8 @@
                     </button>
 
                     <!-- Branding Image -->
-                    <a class="navbar-brand" href="{{ url('/') }}">
-                        {{ config('app.name', 'Laravel') }}
+                    <a class="navbar-brand" href="{{ url('/admin') }}">
+                        Izzyme
                     </a>
                 </div>
 
@@ -44,12 +48,28 @@
                     <!-- Left Side Of Navbar -->
                     <ul class="nav navbar-nav">
                       <li class="dropdown">
-                        <a href="#" class="dropdown-toogle" data-toggle="dropdown" role="button" area-expanded="false">Блог</a>
+                        <a href="#" class="dropdown-toogle" data-toggle="dropdown" role="button" area-expanded="false">Пользователи</a>
                         <ul class="dropdown-menu" role="menu">
-                          <li><a href="#">Категории</a></li>
-                          <li><a href="#">Материалы</a></li>
+                          <li><a href="{{ route('admin.user_managment.user.index') }}">Показать</a></li>
+                          <li><a href="{{ route('admin.user_managment.user.create') }}">Добавить</a></li>
                         </ul>
                       </li>
+                      <li class="dropdown">
+                        <a href="#" class="dropdown-toogle" data-toggle="dropdown" role="button" area-expanded="false">Компании</a>
+                        <ul class="dropdown-menu" role="menu">
+                          <li><a href="{{ route('admin.company.index') }}">Показать</a></li>
+                          <li><a href="{{ route('admin.company.create') }}">Добавить</a></li>
+                        </ul>
+                      </li>
+                      <li class="dropdown">
+                        <a href="#" class="dropdown-toogle" data-toggle="dropdown" role="button" area-expanded="false">Точки</a>
+                        <ul class="dropdown-menu" role="menu">
+                          <li><a href="{{ route('admin.points.index') }}">Показать</a></li>
+                          <li><a href="{{ route('admin.points.create') }}">Добавить</a></li>
+                        </ul>
+                      </li>
+                      <li><a href="{{ route('admin.posts.index') }}">Посты</a></li>
+                      <li><a href="{{ route('admin.statistics') }}">Статистика</a></li>
                     </ul>
 
                     <!-- Right Side Of Navbar -->
@@ -88,6 +108,8 @@
     </div>
 
     <!-- Scripts -->
+    <script src="/js/chartjs/Chart.min.js"></script>
     <script src="/js/app.js"></script>
+    <script src="/js/myscript.js"></script>
 </body>
 </html>

@@ -22,6 +22,7 @@
             'csrfToken' => csrf_token(),
         ]); ?>
     </script>
+    <script src="/js/ckeditor5/ckeditor.js"></script>
 </head>
 <body>
     <div id="app">
@@ -91,6 +92,7 @@
 
     <!-- Scripts -->
     <script src="/js/chartjs/Chart.min.js"></script>
+    <script src="/js/ckeditor5/ckeditor.js"></script>
     <script src="/js/app.js"></script>
     <script src="/js/myscript.js"></script>
 </body>
