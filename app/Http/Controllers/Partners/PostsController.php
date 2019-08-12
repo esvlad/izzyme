@@ -100,7 +100,7 @@ class PostsController extends Controller
        ];
 
        $graphic_config = Statistics::getGraphicsBasicLine($dates, $datasets);
-       
+
        return response()->json(array('config_char'=> $graphic_config), 200);
      }
 

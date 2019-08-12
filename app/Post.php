@@ -42,7 +42,7 @@ class Post extends Model
       }
     }
 
-    public static function getGraphicsPosts($arr_date = array(), $posts){
+    public static function getGraphicsPosts($arr_date = array(), $posts = false){
       $post_ids = array();
       foreach($posts as $post){
         $post_ids[] = $post->id;
@@ -110,6 +110,12 @@ class Post extends Model
       return $datasets;
     }
 
+    private static function preprint($data){
+      echo '<pre>';
+      print_r($data);
+      echo '</pre>';
+    }
+
     public static function getGraphicsPost($arr_date, $stories){
       $points = array();
       $date = array();
@@ -119,8 +125,10 @@ class Post extends Model
         $date[] = $value['date'];
       }
 
+
       foreach($stories as $key => $story){
         $date_add = new Carbon($story->date_add);
+
         if($date_add->format('Y-m-d') == $date[$key]){
           if(!empty($story->views)){
             $points['view'][$key] = (int)$story->views;
@@ -129,6 +137,14 @@ class Post extends Model
           $points['comments'][] = (int)$story->comments;
           $points['likes'][] = (int)$story->likes;
           $points['coverage'][] = (int)$story->coverage;
+        } else {
+          if(!empty($story->views)){
+            $points['view'][$key] = 0;
+          }
+
+          $points['comments'][] = 0;
+          $points['likes'][] = 0;
+          $points['coverage'][] = 0;
         }
       }
 

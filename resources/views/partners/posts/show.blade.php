@@ -56,7 +56,19 @@
             @if(isset($profile->profiles[0]->first_name) || isset($profile->profiles[0]->last_name))
               <div class="row">
                 <div class="col-sm-3">Имя:</div>
-                <div class="col-sm-4"><b>{{$profile->profiles[0]->first_name .' '. $profile->profiles[0]->last_name}}</b></div>
+                @php
+                  $name = '';
+                  if(!empty($profile->profiles[0]->first_name)){
+                    $name .= $profile->profiles[0]->first_name;
+
+                    if(!empty($profile->profiles[0]->last_name)){
+                      $name .= ' ' . $profile->profiles[0]->last_name;
+                    }
+                  } elseif(!empty($profile->profiles[0]->last_name)){
+                    $name .= $profile->profiles[0]->last_name;
+                  }
+                @endphp
+                <div class="col-sm-4"><b>{{$name}}</b></div>
               </div>
             @endif
             @if(isset($profile->profiles[0]->screen_name) || isset($profile->profiles[0]->id))
@@ -137,23 +149,31 @@
             @endif
         </div>
       </div>
-      <div class="panel panel-default">
-        <div class="panel-heading"><h3>Пост</h3></div>
-        <div class="panel-body">
-          <h4>Ссылка:</h4>
-          <p>&nbsp;&nbsp;&nbsp;&nbsp; <a class="icons_social" data-socials-code="{{ $social_code }}" href="{{$post->link}}" target="_blank">{{$post->link}}</a></p>
-          <h4 class="bolder">Текст:</h4>
-          <p>{{$post_info['data']->post_text}}</p>
-          <h4 class="bolder">Вложения:</h4>
-          <div>
-            @foreach($post_info['attachments'] as $attachment)
-              @if($attachment->type == 'photo')
-                <img src="{{$attachment->photo->sizes[4]->url}}" />
-              @endif
-            @endforeach
+      @if(!empty($post_info))
+        <div class="panel panel-default">
+          <div class="panel-heading"><h3>Пост</h3></div>
+          <div class="panel-body">
+            <h4>Ссылка:</h4>
+            <p>&nbsp;&nbsp;&nbsp;&nbsp; <a class="icons_social" data-socials-code="{{ $social_code }}" href="{{$post->link}}" target="_blank">{{$post->link}}</a></p>
+            @if(!empty($post_info['data']->post_text))
+              <h4 class="bolder">Текст:</h4>
+              <p>{{$post_info['data']->post_text}}</p>
+            @endif
+            <h4 class="bolder">Вложения:</h4>
+            <div>
+              @foreach($post_info['attachments'] as $key => $attachment)
+                @if(!empty($attachment->type) && $attachment->type == 'photo')
+                  <img src="{{$attachment->photo->sizes[4]->url}}" />
+                @else
+                  @if($key == 4)
+                    <img src="{{$attachment}}" />
+                  @endif
+                @endif
+              @endforeach
+            </div>
           </div>
         </div>
-      </div>
+      @endif
     </div>
   </div>
 </div>
